@@ -67,7 +67,5 @@ clores-playwright-test/
 
 ## Tips
 
-```
 If the test files are not detected move the project outside ONEDRIVE folder.
 For example PS C:\Users\clores\Project\clores-playwright-test\>
-```
