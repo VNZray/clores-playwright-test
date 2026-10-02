@@ -1,4 +1,4 @@
-import { test, expect, Page } from '@playwright/test';
+import { test, expect } from '@playwright/test';
 
 test('user can add a todo', async ({ page }) => {
     await page.goto('https://demo.playwright.dev/todomvc');
