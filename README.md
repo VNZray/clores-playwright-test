@@ -18,7 +18,7 @@ clores-playwright-test/
 │   ├── todo.spec.ts      # Todo tests
 ├── fixtures/             # Fixtures for tests
 │   └── todo.fixture.ts   # Todo fixtures
-├── playwright.config.ts   # Playwright configuration
+├── playwright.config.ts  # Playwright configuration
 ├── package.json          # Project dependencies and scripts
 └── README.md             # Project documentation
 ```

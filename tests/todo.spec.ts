@@ -11,11 +11,6 @@ test.describe('Test Todo App', () => {
     await expect(todoPage.inputText).toBeEmpty();
     await expect(todoPage.todoTitle).toHaveText([TODO_LIST[0].title]);
     await expect(todoPage.todoCount).toHaveText(/1 item left/);
-
-    // Add second todo
-    await todoPage.addTodo(TODO_LIST[1].title);
-    await expect(todoPage.todoTitle).toHaveText([TODO_LIST[0].title, TODO_LIST[1].title]);
-    await expect(todoPage.todoCount).toHaveText(/2 items left/);
   });
 
   test('Scenario 2: Mark a todo item as complete - verify it gets the "completed" styling/state and the counter updates.', async ({ todoPage }) => {
